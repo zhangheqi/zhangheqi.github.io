@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+	<style>
+		@media (prefers-color-scheme: dark) {body {background-color: #000;}}
+	</style>
+</head>
+
+<body>
+	<a rel="ar" href="https://www.apple.com/105/media/us/apple-events/2021/ffae1875-d7e7-478c-a4a6-93ae179d288d/quick-look/apple_event.usdz#callToAction=添加到日历&checkoutTitle=Apple%20特别活动&checkoutSubtitle=北京时间%204%20月%2021%20日凌晨%201%20点。&canonicalWebPageURL=https://apple.co.cn/apple-events/&price=" id="arql-link"><img></a>
+	<script>
+$("#arql-link")[0].click();
+var linkElement = document.getElementById("arql-link");
+linkElement.addEventListener("message", function (event) {
+   if (event.data === "_apple_ar_quicklook_button_tapped") {
+   location.href = "https://www.apple.com.cn/apple-events/event.ics";
+   }
+}, false);
+	</script>
+</body>
+</html>
