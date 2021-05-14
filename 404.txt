@@ -1,4 +1,4 @@
 ---
-permalink: /404.txt
+permalink: /404.html
 ---
 forbidden
