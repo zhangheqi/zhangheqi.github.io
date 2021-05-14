@@ -1,4 +1,4 @@
 ---
 permalink: /404.txt
 ---
-404
+forbidden
